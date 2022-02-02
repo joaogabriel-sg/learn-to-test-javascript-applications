@@ -1,4 +1,4 @@
-const { get } = require('./service.middleware');
+import { get } from './service.middleware';
 
 describe('Middleware > Service', () => {
   it('should add services to the request', () => {
